@@ -20,7 +20,6 @@ This Spacemacs layer allows using Jira from within org-mode.
 
 When in org-mode:
 
-#+BEGIN_EXAMPLE
 <kbd>mjpg</kbd> 'org-jira-get-projects
 <kbd>mjib</kbd> 'org-jira-browse-issue
 <kbd>mjig</kbd> 'org-jira-get-issues
@@ -36,4 +35,3 @@ When in org-mode:
 <kbd>mjsg</kbd> 'org-jira-get-subtasks
 <kbd>mjcu</kbd> 'org-jira-update-comment
 <kbd>mjtj</kbd> 'org-jira-todo-to-jira
-#+END_EXAMPLE
