@@ -18,27 +18,27 @@
   (use-package org-jira
     :config
     (progn
-      ;;(spacemacs/declare-prefix-for-mode 'org-mode "mj" "jira")
-      ;;(spacemacs/declare-prefix-for-mode 'org-mode "mjp" "projects")
-      ;;(spacemacs/declare-prefix-for-mode 'org-mode "mji" "issues")
-      ;;(spacemacs/declare-prefix-for-mode 'org-mode "mjs" "subtasks")
-      ;;(spacemacs/declare-prefix-for-mode 'org-mode "mjc" "comments")
-      ;;(spacemacs/declare-prefix-for-mode 'org-mode "mjt" "todos")
-      (evil-leader/set-key-for-mode 'org-mode
-        "mjpg" 'org-jira-get-projects
-        "mjib" 'org-jira-browse-issue
-        "mjig" 'org-jira-get-issues
-        "mjih" 'org-jira-get-issues-headonly
-        "mjif" 'org-jira-get-issues-from-filter-headonly
-        "mjiF" 'org-jira-get-issues-from-filter
-        "mjiu" 'org-jira-update-issue
-        "mjiw" 'org-jira-progress-issue
-        "mjir" 'org-jira-refresh-issue
-        "mjic" 'org-jira-create-issue
-        "mjik" 'org-jira-copy-current-issue-key
-        "mjsc" 'org-jira-create-subtask
-        "mjsg" 'org-jira-get-subtasks
-        "mjcu" 'org-jira-update-comment
-        "mjtj" 'org-jira-todo-to-jira)
+      (spacemacs/declare-prefix-for-mode 'org-mode "mj" "jira")
+      (spacemacs/declare-prefix-for-mode 'org-mode "mjp" "projects")
+      (spacemacs/declare-prefix-for-mode 'org-mode "mji" "issues")
+      (spacemacs/declare-prefix-for-mode 'org-mode "mjs" "subtasks")
+      (spacemacs/declare-prefix-for-mode 'org-mode "mjc" "comments")
+      (spacemacs/declare-prefix-for-mode 'org-mode "mjt" "todos")
+      (spacemacs/set-leader-keys-for-major-mode 'org-mode
+        "jpg" 'org-jira-get-projects
+        "jib" 'org-jira-browse-issue
+        "jig" 'org-jira-get-issues
+        "jih" 'org-jira-get-issues-headonly
+        "jif" 'org-jira-get-issues-from-filter-headonly
+        "jiF" 'org-jira-get-issues-from-filter
+        "jiu" 'org-jira-update-issue
+        "jiw" 'org-jira-progress-issue
+        "jir" 'org-jira-refresh-issue
+        "jic" 'org-jira-create-issue
+        "jik" 'org-jira-copy-current-issue-key
+        "jsc" 'org-jira-create-subtask
+        "jsg" 'org-jira-get-subtasks
+        "jcu" 'org-jira-update-comment
+        "jtj" 'org-jira-todo-to-jira)
       )
     ))
