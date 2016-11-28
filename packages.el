@@ -10,12 +10,17 @@
 ;;
 ;;; License: GPLv3
 
-(defvar org-jira-packages '(org org-jira))
+(defvar org-jira-packages '(org
+                            (org-jira :location (recipe
+                                                 :fetcher github
+                                                 :repo "baohaojun/org-jira"
+                                                 :branch "restapi"))))
 
 (defvar org-jira-excluded-packages '() "List of packages to exclude.")
 
 (defun org-jira/init-org-jira ()
   (use-package org-jira
+    :defer t
     :config
     (progn
       (spacemacs/declare-prefix-for-mode 'org-mode "mj" "jira")
