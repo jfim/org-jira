@@ -1,6 +1,6 @@
 # org-jira Spacemacs layer
 
-This Spacemacs layer allows using Jira from within org-mode.
+This Spacemacs layer allows using Jira from within org-mode. This branch uses the deprecated JIRA SOAP API; for the current REST API, use the master branch.
 
 ## Installation
 
@@ -8,6 +8,7 @@ This Spacemacs layer allows using Jira from within org-mode.
 
 ```bash
 git clone git@github.com:jfim/org-jira.git
+git checkout -b soap-api origin/soap-api
 ln -s "`pwd`/org-jira" ~/.emacs.d/private/org-jira
 ```
 
