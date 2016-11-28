@@ -13,7 +13,7 @@
 (defvar org-jira-packages '(org
                             (org-jira :location (recipe
                                                  :fetcher github
-                                                 :repo "baohaojun/org-jira"
+                                                 :repo "ahungry/org-jira"
                                                  :branch "restapi"))))
 
 (defvar org-jira-excluded-packages '() "List of packages to exclude.")
