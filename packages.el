@@ -14,7 +14,7 @@
                             (org-jira :location (recipe
                                                  :fetcher github
                                                  :repo "ahungry/org-jira"
-                                                 :branch "restapi"))))
+                                                 :branch "master"))))
 
 (defvar org-jira-excluded-packages '() "List of packages to exclude.")
 
