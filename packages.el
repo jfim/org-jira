@@ -11,10 +11,7 @@
 ;;; License: GPLv3
 
 (defvar org-jira-packages '(org
-                            (org-jira :location (recipe
-                                                 :fetcher github
-                                                 :repo "ahungry/org-jira"
-                                                 :branch "restapi"))))
+                            (org-jira :location elpa)))
 
 (defvar org-jira-excluded-packages '() "List of packages to exclude.")
 
