@@ -10,8 +10,7 @@
 ;;
 ;;; License: GPLv3
 
-(defvar org-jira-packages '(org
-                            (org-jira :location elpa)))
+(defvar org-jira-packages '((org-jira :location elpa)))
 
 (defvar org-jira-excluded-packages '() "List of packages to exclude.")
 
